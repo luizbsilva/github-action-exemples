@@ -1,0 +1,13 @@
+name: first-workflow
+run-name: Primeiro Workflow
+
+on:
+  - workflow_call
+  - workflow_dispatch
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Word
+        run: echo "Hello Word"
