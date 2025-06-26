@@ -2,8 +2,7 @@ name: first-workflow
 run-name: Primeiro Workflow
 
 on:
-  - workflow_call
-  - workflow_dispatch
+  - push
 
 jobs:
   test-and-build:
